@@ -78,7 +78,7 @@ Leave the Command Prompt window or Terminal open. After you have configured the 
 #### 6.Save your changes.
 
 # Using the sample
-#### 1. In a Command Prompt window in Windows or terminal in Mac, run npm start from inside the sample project folder.
+#### 1. In a Command Prompt window in Windows or terminal in Mac, `run npm start` from inside the sample project folder.
 #### 2. The React User Manager app opens in your browser ( http://localhost:3000), covered by a login page.
 
    - On the left of the app is a section for a List of Users, where users that belong to the Intelligence Server linked to the project will be displayed.
