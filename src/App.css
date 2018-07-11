@@ -1,0 +1,193 @@
+    .App {
+      text-align: center;
+    }
+
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+      height: 50px;
+    }
+
+    .App-header {
+      background-color: #222;
+      height: 50px;
+      padding: 20px;
+      color: white;
+    }
+
+    .App-title {
+        font-size: 2.5em;
+        vertical-align: top;
+    }
+
+    @keyframes App-logo-spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .submit-button {
+        background-color: #61dafb;
+        color: white;
+        padding: 14px 20px;
+        margin: 0 auto;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        width: 63% !important;
+        font-size: 15px;
+    }
+
+    .submit-button:hover {
+        background-color: #06bef0;
+    }
+
+    .container{
+        display: flex;
+        margin: 10px;
+        text-align: left;;
+        padding-left: 10px;
+    }
+    .fixed{
+        width: 300px;
+        border: 1px solid #61dafb;
+    }
+    .flex-item{
+        flex-grow: 1;
+        border: 1px solid #61dafb;
+        border-left-width: 0;
+        word-wrap: break-word !important;
+    }
+
+    .right-panel{
+        border: 1px solid #61dafb;
+        border-left-width: 0;
+        word-wrap: break-word !important;
+        width: 500px;
+    }
+
+    .user:hover {
+        background: #61dafb;
+    }
+
+
+    .panel-title {
+        font-size: large;
+        font-weight: 700;
+        padding: 10px 10px;
+        border-bottom: 1px solid #61dafb;
+        height: 30px;
+    }
+
+    .login-button {
+        float: right !important;
+        padding: 5px;
+        width:2vw;
+        height:2vw;
+        background: url(gear256.png);
+        background-size: contain;
+    }
+
+    .subtitle {
+        font-size: .5em;
+        font-style: italic;
+        color: gray;
+        padding-top: 3px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .user-editor {
+        margin: 0 auto;
+        width: 65%;
+        line-height: 2;
+    }
+
+    button{
+        cursor: pointer;
+    }
+
+    input[type=text], select {
+        width: 55% !important;
+        padding: 12px 20px !important;
+        margin: 8px 0;
+        display: inline-block !important;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=password], select {
+        width: 55% !important;
+        padding: 12px 20px !important;
+        margin: 8px 0;
+        display: inline-block !important;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+
+    input[type=submit] {
+        background-color: #61dafb;
+        color: white;
+        padding: 14px 20px !important;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-block !important;
+        width: 55%
+    }
+
+    input[type=submit]:hover {
+        background-color: #06bef0;
+    }
+
+
+    /* user table styling */
+    table {
+        padding: 10px;
+    }
+
+    tr:nth-child(odd) {
+        background-color: #f2f2f2
+    }
+
+    td {
+        padding-left: 5px;
+    }
+
+    th {
+        background-color: #61dafb;
+        color: white;
+        font-weight: normal;
+        padding-left: 5px;
+    }
+
+    li {
+        margin-bottom: 1em;
+    }
+
+    .login-backdrop {
+        position: fixed;
+        top: 0px;
+        bottom: 0px;
+        left: 0px;
+        right: 0;
+        background-color: rgba(0,0,0,0.3);
+        padding: 50px;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+    }
+
+    .login-form {
+        text-align: center;
+        background-color: #fff;
+        border-radius: 3px;
+        width: 500px;
+        height: 300px;
+        margin: 0px auto;
+        padding: 30px;
+        z-index: 2;
+    }
