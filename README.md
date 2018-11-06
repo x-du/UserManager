@@ -81,7 +81,7 @@ Leave the Command Prompt window or Terminal open. After you have configured the 
 #### 1. In a Command Prompt window in Windows or terminal in Mac, `run npm start` from inside the sample project folder.
 #### 2. The React User Manager app opens in your browser ( http://localhost:3000), covered by a login page.
 
-   - On the left of the app is a section for a List of Users, where users that belong to the Intelligence Server linked to the project will be displayed.
+   - On the left of the app is a section for a List of Users, where users that belong to the Intelligence Server linked to the project will be displayed
    - In the middle is a section where User Properties for a user selected from the list will be displayed. This information can be edited and saved.
    - On the right is the REST Call Logsection where REST API calls will be listed as they are made, beginning with authentication.
 #### 3. Confirm that the user name and password on the login page are correct and click the log in button.
